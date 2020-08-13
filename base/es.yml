@@ -16,59 +16,59 @@ cmdm.bad-setup: "Es posible que tengas problemas con el `{}` comando."  # {comma
 cmdm.bad-setup.detail: "Es muy probable es que esto se deba a que el bot no tiene permiso para publicar o insertar enlaces en el canal en el que está usando el comando. Establecer los permisos del bot correctamente e intente nueva."
 cmdm.bad-setup.extra: "Si necesitas más ayuda, unirse al servidor de soporte en {}."  # {invite}
 
-cmdm.perm-error.title: "Insufficient permissions"
-cmdm.perm-error.detail: "The bot is missing the following permission in this channel: {}. This permission is required to run the command `{}`."  # {perm}, {command}
-cmdm.perm-error.detail-plural: "The bot is missing the following permissions in this channel: {}. These permissions are required to run the command `{}`."  # {perms}, {command}
-cmdm.perm-error.support: "Need help with permissions?"
-cmdm.perm-error.support-detail: "[See this article from Discord for support]({}) or [join our support server]({})."  # {link1}, {link2}
+cmdm.perm-error.title: "Permisos insuficiente"
+cmdm.perm-error.detail: "Al bot le faltan el siguiente permiso en este canal: {}. Este permiso es necesario para ejecutar el comando `{}`."  # {perm}, {command}
+cmdm.perm-error.detail-plural: "Al bot le faltan los siguientes permisos en este canal: {}. Estos permiso es necesario para ejecutar el comando `{}`."  # {perms}, {command}
+cmdm.perm-error.support: "¿Necesitas ayuda con los permisos?"
+cmdm.perm-error.support-detail: "[Ver este artículo de Discord para ayuda]({}) o [unirse al servidor de soporte]({})."  # {link1}, {link2}
 
-cmdm.sal.disabled: "This command has been disabled in this server by an administrator."
-cmdm.sal.permission: "Guild access level requires you to have permission `{}`."
-cmdm.sal.role: "You need the role `{}` or higher to use this command."
-cmdm.sal.role.footer: "This is controlled by your server administrators."
-cmdm.sal.invalid-role: "The server administrators have set this command's access level to an invalid role."
-cmdm.sal.invalid-role.detail: "Please ask them to fix this issue by running the `settings` command."
-cmdm.sal.invalid: "Invalid server access level for this command."
-cmdm.sal.invalid.detail: "Please check your server settings."
+cmdm.sal.disabled: "Este comando ha sido deshabilitada en este servidor por un administrador."
+cmdm.sal.permission: "Nivel de acceso del gremio requiere que tengas permiso `{}`."
+cmdm.sal.role: "Necesitas el rol `{}` o superior para usar este comando."
+cmdm.sal.role.footer: "Esto es controlado por el administrador del servidor."
+cmdm.sal.invalid-role: "Los administradores del servidor han establecido el nivel de acceso de este comando en un rol no válido."
+cmdm.sal.invalid-role.detail: "Por favor pídales que solucionen este problema ejecutando el `settings` comando."
+cmdm.sal.invalid: "Nivel de acceso al servidor no válido para este comando"
+cmdm.sal.invalid.detail: "Por favor comprobar la configuración de su servidor"
 
-antispam.blacklisted.title: "Your guild is blacklisted."
-antispam.blacklisted.detail: "Due to spam, command execution is disabled. You must wait at least 1 hour to continue."
+antispam.blacklisted.title: "Tu gremio está en la lista negra."
+antispam.blacklisted.detail: "Debido a 'spam', la ejecución de los comandos está deshabilitada. Debes esperar al menos una hora para continuar."
 
 # COMMANDS
 
 # add
-cmd.add.message: "Invite the bot with this link."
+cmd.add.message: "Invita al bot con este enlace."
 # vote
-cmd.vote.message: "Vote here to support the bot."
-cmd.vote.unavailable: "Voting is not available for this bot."
+cmd.vote.message: "Vota aquí para apoyar al bot."
+cmd.vote.unavailable: "La votación no está disponible para este bot."
 # diagnose
-cmd.diagnose.sent: "Your report has been sent to the developers."
+cmd.diagnose.sent: "Su informe ha sido enviado a los desarrolladores."
 # version
-cmd.version.message: "{} version `{}` (DPE `{}`, DPY `{}`)"  # {bot_name}, {bot_version}, {dpe_version}, {dpy_version}
+cmd.version.message: "{} versión `{}` (DPE `{}`, DPY `{}`)"  # {bot_name}, {bot_version}, {dpe_version}, {dpy_version}
 # settings
-cmd.settings.updated: "Settings updated."
-cmd.settings.prefix.too-long: "Prefix cannot be longer than 24 characters."
-cmd.settings.view.title: "Settings for this guild"
-cmd.settings.view.prefix: "Prefix"
-cmd.settings.view.language: "Language"
-cmd.settings.view.footer: "Change a setting with `{}settings <name> <value>`."
-cmd.settings.language.not-found: "Language not found"
-cmd.settings.language.not-found.detail: "Supported languages: \n{}"
+cmd.settings.updated: "Configuración actualidzada."
+cmd.settings.prefix.too-long: "El prefijo no puede tener más de 24 caracteres."
+cmd.settings.view.title: "Configuración para este gremio"
+cmd.settings.view.prefix: "Prefijo"
+cmd.settings.view.language: "Idioma"
+cmd.settings.view.footer: "Cambiar una configuración con `{}settings <name> <value>`."
+cmd.settings.language.not-found: "Idioma no encontrado"
+cmd.settings.language.not-found.detail: "Lenguas admitidos: \n{}"
 # access-level
-cmd.access-level.view.title: "Command access level configuration"
-cmd.access-level.view.description: "This server has access levels set for {} commands. \nSet a command access level with `{}access-level set` \nReset a command access level with `{}access-level reset`"
-cmd.access-level.view.invalid-role: "_[INVALID ROLE - PLEASE RECONFIGURE]_"
-cmd.access-level.view.role: "Role: {}"
-cmd.access-level.view.permission: "Permission: {}"
+cmd.access-level.view.title: "Configuración del nivel de acceso de comando"
+cmd.access-level.view.description: "Este servidor tiene niveles de acceso establecidos para {} comandos. \nEstablecer un nivel de acceso de comando con `{}access-level set` \nRestablecer un nivel de acceso de comando con `{}access-level reset`"
+cmd.access-level.view.invalid-role: "_[ROL INVÁlIDO - RECONFIGURA POR FAVOR]_"
+cmd.access-level.view.role: "Rol: {}"
+cmd.access-level.view.permission: "Permiso: {}"
 
-cmd.access-level.set.invalid-role: "Invalid role mention."
-cmd.access-level.set.invalid-permission: "Invalid permission: `{}`."
-cmd.access-level.set.invalid-al: "Invalid access level."
-cmd.access-level.set.command-not-found: "Command not found: `{}`"
-cmd.access-level.set.locked: "The access level for command `{}` cannot be changed."
-cmd.access-level.set.updated: "Updated command access level to `{}` for {} command(s)."
+cmd.access-level.set.invalid-role: "Mención de rol inválido."
+cmd.access-level.set.invalid-permission: "Permiso inválido: `{}`."
+cmd.access-level.set.invalid-al: "Nivel de acceso inválido."
+cmd.access-level.set.command-not-found: "Comando no encontrado: `{}`"
+cmd.access-level.set.locked: "El nivel de aceso para comando `{}` no se puede cambiar."
+cmd.access-level.set.updated: "Nivel de acceso de comando actualizado a `{}` para {} comando(s)."
 
-cmd.access-level.reset.success-all: "Reset access level for all commands."
-cmd.access-level.reset.success: "Reset access level for `{}`."
+cmd.access-level.reset.success-all: "Restablecer nivel de acceso para todos los comandos."
+cmd.access-level.reset.success: "Restablecer nivel de acceso para todos `{}`."
 
-contributors: ""
+contributors: "berkshireking17"
