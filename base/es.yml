@@ -1,20 +1,20 @@
 # GENERIC
-generic.failed: "Failed"
-generic.success: "Success"
+generic.failed: "Fallido"
+generic.success: "Éxito"
 generic.error: "Error"
-generic.thank-you: "Thank you"
+generic.thank-you: "Gracias"
 
 # COMMAND MANAGER
-cmdm.prefix: "The prefix for this server is `{}`."
-cmdm.permission-denied: "You are not allowed to run the command `{}`."  # {command}
-cmdm.invalid-usage: "Invalid usage"
-cmdm.invalid-usage-detail: "Use: `{} {}`"  # {command}, {usage}
-cmdm.error: "Something went wrong with this command. This issue has been reported."
-cmdm.maintenance: "Cannot run command: bot is in maintenance mode."
+cmdm.prefix: "El prefijo para esto servidor es `{}`."
+cmdm.permission-denied: "No se le permite ejecutar el comando `{}`."  # {command}
+cmdm.invalid-usage: "Inválido uso"
+cmdm.invalid-usage-detail: "Usas: `{} {}`"  # {command}, {usage}
+cmdm.error: "Algo salió mal con esto comando. Esto problema ha sido reportado."
+cmdm.maintenance: "No se puede ejecutar el comando: bot es en modo de mantenimiento."
 
-cmdm.bad-setup: "You might be having issues with the `{}` command."  # {command}
-cmdm.bad-setup.detail: "This is most likely because the bot is missing the send messages or embed links permission in the channel you are using the command in. Set the bot's permissions correctly and try again."
-cmdm.bad-setup.extra: "If you need extra help, join the support server at {}."  # {invite}
+cmdm.bad-setup: "Es posible que tengas problemas con el `{}` comando."  # {command}
+cmdm.bad-setup.detail: "Es muy probable es que esto se deba a que el bot no tiene permiso para publicar o insertar enlaces en el canal en el que está usando el comando. Establecer los permisos del bot correctamente e intente nueva."
+cmdm.bad-setup.extra: "Si necesitas más ayuda, unirse al servidor de soporte en {}."  # {invite}
 
 cmdm.perm-error.title: "Insufficient permissions"
 cmdm.perm-error.detail: "The bot is missing the following permission in this channel: {}. This permission is required to run the command `{}`."  # {perm}, {command}
