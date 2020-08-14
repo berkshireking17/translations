@@ -15,12 +15,12 @@
 ################################################################
 
 # === GENERIC ===
-premium-only: "QuizBot Premium only feature."
-premium-only.learn-more: "[Learn more about QuizBot Premium here.]({})"  # {premium_link}
-nan: "Please specify a number."
-quiz.no-description: "*[This quiz has no description]*"
-quiz.editor-web: "Go [here]({}) to edit it."
-user.unavailable: "(user unavailable)"
+premium-only: "Función única de QuizBot Premium."
+premium-only.learn-more: "[Aprende más sobre QuizBot Premium aquí.]({})"  # {premium_link}
+nan: "Por favor especifique un número."
+quiz.no-description: "*[Este pregunta no tiene descripción]*"
+quiz.editor-web: "Ve [aquí]({}) para editarlo."
+user.unavailable: "(usario no disponsible)"
 
 # === QUIZ EDITOR ===
 qe.standard.title: "Editing quiz: {}"
